@@ -5,7 +5,7 @@
 
 <br />
 
-#### <b>Project Description<b>
+#### Project Description
 
 Read [competition details](https://www.kaggle.com/c/state-farm-distracted-driver-detection) on Kaggle.
 Our presentation file is [here](presentation.pptx).
@@ -33,7 +33,7 @@ The 10 classes to predict are:
 
 <br />
 
-#### <b>Model Performance<b>
+#### Model Performance
 
 Loss function: Log loss
 
@@ -45,7 +45,7 @@ Our performance:
 
 ![image](./figs/performance.jpg)
 
-#### <b>Feature Extraction and Classification Model<b>
+#### Feature Extraction and Classification Model
 
 We extracted features of images using neural network, caffe and opencv, but there is no ideal feature given by SIFT in opencv. We also used pixels as features.
 
