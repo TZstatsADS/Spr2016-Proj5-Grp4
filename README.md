@@ -1,7 +1,7 @@
 # Project 5: Distracted Driver Detection
 
 
-#####<b>Team 4:</b> Haoyang Chen, Jingwei Li, Aoyuan Liao, Qiner Shi.
+<b>Team 4:</b> Haoyang Chen, Jingwei Li, Aoyuan Liao, Qiner Shi.
 
 <br />
 
