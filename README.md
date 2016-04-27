@@ -1,11 +1,11 @@
-# <b>Project 5: Distracted Driver Detection
+# Project 5: Distracted Driver Detection
 
 
 #####<b>Team 4:</b> Haoyang Chen, Jingwei Li, Aoyuan Liao, Qiner Shi.
 
 <br />
 
-#### <b>Project Description
+#### <b>Project Description<b>
 
 Read [competition details](https://www.kaggle.com/c/state-farm-distracted-driver-detection) on Kaggle.
 Our presentation file is [here](presentation.pptx).
@@ -33,26 +33,30 @@ The 10 classes to predict are:
 
 <br />
 
-#### <b>Model Performance
+#### <b>Model Performance<b>
 
 Loss function: Log loss
 
 Benchmark on Kaggle:
+
 ![image](./figs/benchmark.png)
 
 Our performance:
+
 ![image](./figs/performance.jpg)
 
-#### <b>Feature Extraction and Classification Model
+#### <b>Feature Extraction and Classification Model<b>
 
 We extracted features of images using neural network, caffe and opencv, but there is no ideal feature given by SIFT in opencv. We also used pixels as features.
 
 In the classification chain model, we treated the 10 classes as 10 dummy variables to built 10 binary-class classifers. Then ensemble the results of 10 classifers to give the prediction.
+
 ![image](./figs/classification_chain.jpg)
 
 We also built a model based on random forest using pixel as features. The third model used Extreme Gradient Boosting and features extracted by neural network. Finally, we ensemble the three models to get the final prediction.
 
 The structure of classier:
+
 ![image](./figs/model.jpg)
 
 
