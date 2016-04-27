@@ -39,11 +39,11 @@ Loss function: Log loss
 
 Benchmark on Kaggle:
 
-<p><center><img src="figs/benchmark.png" width=450 ></center></p>
+<p align="center"><img src="figs/benchmark.png" width=600 ></p>
 
 Our performance:
 
-<p><center><img src="figs/performance.jpg" width=450 ></center></p>
+<p align="center"><img src="figs/performance.jpg" width=600 ></p>
 
 #### Feature Extraction and Classification Model
 
@@ -51,13 +51,13 @@ We extracted features of images using neural network, caffe and opencv, but ther
 
 In the classification chain model, we treated the 10 classes as 10 dummy variables to built 10 binary-class classifers. Then ensemble the results of 10 classifers to give the prediction.
 
-<p><center><img src="figs/classification_chain.jpg" ></center></p>
+<p align="center"><img src="figs/classification_chain.jpg" ></p>
 
 We also built a model based on random forest using pixel as features. The third model used Extreme Gradient Boosting and features extracted by neural network. Finally, we ensemble the three models to get the final prediction.
 
 The structure of classier:
 
-<p><center><img src="figs/model.jpg" ></center></p>
+<p align="center"><img src="figs/model.jpg" ></p>
 
 ---
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
