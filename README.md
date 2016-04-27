@@ -8,7 +8,7 @@
 #### Project Description
 
 Read [competition details](https://www.kaggle.com/c/state-farm-distracted-driver-detection) on Kaggle.
-Our presentation file is [here](presentation.pptx).
+Our presentation file is [here](./output/presentation.pptx).
 
 According to the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver. State Farm hopes to improve these alarming statistics, and better insure their customers, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors.
 
