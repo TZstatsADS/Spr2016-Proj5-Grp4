@@ -12,7 +12,7 @@ Our presentation file is [here](./output/presentation.pptx).
 
 According to the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver. State Farm hopes to improve these alarming statistics, and better insure their customers, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors.
 
-In this project, we extracted features from a dataset of 2D dashboard camera images, and developed a classifer to detect each driver's behavior.
+In this project, we extracted features from a dataset of 2D dashboard camera images, and developed a classifier to detect each driver's behavior.
 
 ![image](./figs/drivers_statefarm.png)
 
@@ -49,13 +49,13 @@ Our performance:
 
 We extracted features of images using neural network, caffe and opencv, but there is no ideal feature given by SIFT in opencv. We also used pixels as features.
 
-In the classification chain model, we treated the 10 classes as 10 dummy variables to built 10 binary-class classifers. Then ensemble the results of 10 classifers to give the prediction.
+In the classifier chain model, we treated the 10 classes as 10 dummy variables to built 10 binary-class classifiers. Then ensemble the results of 10 classifiers to give the prediction.
 
 <p align="center"><img src="figs/classification_chain.jpg" ></p>
 
 We also built a model based on random forest using pixel as features. The third model used Extreme Gradient Boosting and features extracted by neural network. Finally, we ensemble the three models to get the final prediction.
 
-The structure of classier:
+The structure of classifier:
 
 <p align="center"><img src="figs/model.jpg" ></p>
 
